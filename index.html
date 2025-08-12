@@ -1,29 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ХГООПРС "СК ВИКТОРИЯ"</title>
+<title>RG Victoria Club</title>
+</head>
+<body>
+
+<!-- VIDEO -->
+    <div class="video-background">
+  <video autoplay muted loop playsinline>
+    <source src="your-video.mp4" type="video/mp4" />
+  </video>
+    </div>
+<!-- VIDEO -->
+<div class="content">
+    <header>
+      <h1>Школа художественной гимнастики "СК Виктория"</h1>
+        <nav>
+            <a href="#branches">Филиалы</a>
+            <a href="#trainers">Тренеры</a>
+            <a href="#news">Новости</a>
+            <a href="#photos">Галерея</a>
+        </nav>
+    </header>
+    <div class="container">
+            <!-- Общая информация -->
+            <div class="section">
+            <h2>Общая информация</h2>
+            <p>текст</p>
+            </div>
+
+        <!-- Филиалы -->
+        <div class="section">
+            <h2>Филиалы</h2>
+            <div class="cards">
+                <div class="card"> Центр, Ленинградская 79, 6я гимназия</div>
+                <div class="card">м-н Южный, 29 школа-Союзная 1</div>
+                <div class="card">м-н Северный, Экономическая гимназия, Даниловского 22</div>
+                <div class="card">ФК “ World Class” золотые башни, Восточное шоссе 41</div>
+                <div class="card">р-н Овощесовхоз, СК «Арагон», Краснодарская 100</div>
+                <div class="card">п.Горького, 27 школа Воровского 24Б</div>
+                <div style="text-align: center;">Запись по телефону: 204-754</div>
+            </div>
+        </div>
+
+     <!-- Контакты тренеров -->
+     <div class="section">
+         <h2>Контакты тренеров</h2>
+            <div>
+                <div>Иван Иванов: ivanov@mail.ru, тел.: +7 (495)111-22-33</div>
+                <div>Мария Петрова: petrova@mail.ru, тел.: +7 (495)444-55-66</div>
+            </div>
+      </div>
+
+     <!-- Новости -->
+      <div class="section">
+         <h2>Новости</h2>
+          <div class="news-item">
+             <h3>Объявляется набор девочек 4-6 лет</h3>
+             <div style="font-weight: 900 !important;">Художественная гимнастика<br>Эстетическая гимнастика<br>Филиалы в разных районах города. Всю подробную информацию можно узнать по телефону: 77-00-74. Запись по телефону , w/a, direct<br>Начало занятий с сентября</div>
+             <div style="font-size: small;">Дата публикации — 29 июля,2025</div>
+         </div>
+          <div class="news-item">
+             <h3>От Всей души поздравляем команду в групповых упражнениях «Виктория» с присвоением звания «Мастер спорта России по художественной гимнастике»</h3>
+              <div>В составе команды: Беседина Виктория, Давыдова Надежда, Кантемирова Полина, Клещева Ярослава, Петрова Дарья, Селиванова Полина<br>Девочки, так держать, мы вами гордимся. Огромная благодарность директору спортивного клуба «Виктория» , главному тренеру, подготовившей спортсменок Бесединой Ирине Владимировне</div>
+              <div>Дата публикации — 5 июля,2025</div>
+          </div>
+     </div>
+
+      <!-- Фотоальбом -->
+      <div class="section">
+          <h2>Галерея</h2>
+          <div class="gallery">
+              <img src="https://via.placeholder.com/200x150?text=Фото+1" alt="Фото1" />
+               <img src="https://via.placeholder.com/200x150?text=Фото+2" alt="Фото2" />
+               <img src="https://via.placeholder.com/200x150?text=Фото+3" alt="Фото3" />
+            <img src="https://via.placeholder.com/200x150?text=Фото+4" alt="Фото4" />
+         </div>
+    </div>
+
+</div>
+
+</div>
+
+<footer>
+<p>Разработано компанией Россфера</p>
+</footer>
+
+</body>
 <style>
   /* Общие стили */
+  html {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+  }
   body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4f4f462;
     color: #333;
+    padding: 0;
+    height: 100%;
   }
 
   header {
-    background-color: #0066cc;
-    color: #fff;
+    background-color: #35022de1;
+    color: #ffffff;
     padding: 20px 10px;
     text-align: center;
   }
 
   header h1 {
-    margin: 0;
-    font-size: 2em;
+ 
   }
 
   nav {
@@ -31,10 +122,10 @@
   }
 
   nav a {
-    color: #fff;
+    color: #ffffffc8;
     text-decoration: none;
     margin: 0 15px;
-    font-weight: bold;
+    font-size: 2em;
   }
 
   nav a:hover {
@@ -47,38 +138,18 @@
     padding: 20px;
   }
 
-  section {
+  .section {
     margin-bottom: 40px;
-    background-color: #fff;
+    background-color: #35022d9e;
     padding: 20px;
     border-radius: 8px;
   }
 
   h2 {
     margin-top: 0;
-    color: #0066cc;
+    color: #ffffff;
   }
-
-  /* Филиалы и контакты - карточки */
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .card {
-    flex: 1 1 calc(50% - 20px);
-    background-color: #e9ecef;
-    padding:15px;
-    border-radius:8px;
-}
-
-@media(max-width:768px){
-   .card{
-     flex-basis:auto; 
-   }
-}
-
+  
 /* Фотоальбом */
 .gallery {
    display:flex; 
@@ -96,97 +167,43 @@
 /* Новости */
 .news-item{
    margin-bottom:15px; 
+   background-color: #33333349;
+   padding: 10px;
 }
 
 footer{
-   background-color:#0066cc; 
+   background-color:#4001427b;
    color:#fff; 
    text-align:center; 
    padding:15px; 
+   font-size: small;
+   color: #d8d5d5;
 }
+  /* Контейнер для видео */
+  .video-background {
+    position: fixed; /* фиксированное позиционирование */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* скрыть лишнее */
+    z-index: -1; /* чтобы было позади другого контента */
+  }
+
+  /* Видео */
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* растягивание и сохранение пропорций */
+    /* Можно добавить дополнительные стили для плавности или фильтров */
+  }
+
+  /* Контент поверх видео */
+  .content {
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255); /* или любой другой цвет текста */
+    width: 100%;
+  }
 </style>
-</head>
-<body>
-
-<header>
-<h1>ХГООПРС "СК ВИКТОРИЯ"</h1>
-<nav>
-<a href="#about">Общая информация</a>
-<a href="#branches">Филиалы</a>
-<a href="#trainers">Тренеры</a>
-<a href="#news">Новости</a>
-<a href="#photos">Фотоальбом</a>
-</nav>
-</header>
-
-<div class="container">
-
-<!-- Общая информация -->
-<section id="about">
-<h2>Общая информация</h2>
-<p>Художественно-графический отдел профессиональных рисовальных студий "СК ВИКТОРИЯ" занимается развитием художественных навыков у детей и взрослых. Мы предлагаем разнообразные курсы и тренировки для всех уровней.</p>
-</section>
-
-<!-- Филиалы -->
-<section id="branches">
-<h2>Филиалы</h2>
-<div class="cards">
-<div class="card">
-<h3>Филиал №1</h3>
-<p>Адрес: г. Москва, ул. Ленина, д.10</p>
-<p>Телефон:+7 (495)123-45-67</p>
-</div>
-<div class="card">
-<h3>Филиал №2</h3>
-<p>Адрес: г. Москва, проспект Мира, д.20</p>
-<p>Телефон:+7 (495)987-65-43</p>
-</div>
-<!-- Можно добавить больше филиалов -->
-</div>
-</section>
-
-<!-- Контакты тренеров -->
-<section id="trainers">
-<h2>Контакты тренеров</h2>
-<ul>
-<li><strong>Иван Иванов:</strong> ivanov@mail.ru, тел.: +7 (495)111-22-33</li>
-<li><strong>Мария Петрова:</strong> petrova@mail.ru, тел.: +7 (495)444-55-66</li>
-<!-- Можно добавить больше тренеров -->
-</ul>
-</section>
-
-<!-- Новости -->
-<section id="news">
-<h2>Новости</h2>
-<div class="news-item">
-<h3>Открытие нового филиала!</h3>
-<p>Приглашаем всех на открытие нашего нового филиала в районе Северное Тушино. Торжественное мероприятие состоится в следующую субботу.</p>
-<small>Дата публикации — октябрь,2023</small></div>
-
-<div class="news-item">
-<h3>Обновление расписания занятий</h3>
-<p>Обратите внимание! С нового месяца изменится расписание тренировок. Подробнее уточняйте у тренеров.</p><small>Дата публикации — октябрь,2023</small></div>
-
-<!-- Можно добавить новости -->
-</section>
-
-<!-- Фотоальбом -->
-<section id="photos">
-<h2>Фотоальбом</h2>
-<div class="gallery">
-<img src="https://via.placeholder.com/200x150?text=Фото+1" alt="Фото1" />
-<img src="https://via.placeholder.com/200x150?text=Фото+2" alt="Фото2" />
-<img src="https://via.placeholder.com/200x150?text=Фото+3" alt="Фото3" />
-<img src="https://via.placeholder.com/200x150?text=Фото+4" alt="Фото4" />
-<!-- Можно добавить больше фотографий -->
-</div>
-</section>
-
-</div>
-
-<footer>
-<p>&copy; 2023 ХГООПРС "СК ВИКТОРИЯ". Все права защищены.</p>
-</footer>
-
-</body>
 </html>
