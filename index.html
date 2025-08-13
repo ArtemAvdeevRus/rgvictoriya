@@ -20,14 +20,14 @@
 <!-- VIDEO -->
 <div class="content">
     <header>
-      <h1>Школа художественной гимнастики <br> "СК Виктория"</h1>
-        <nav>
-            <a href="#adout">О школе</a>
-            <a href="#branches">Филиалы</a>
-            <a href="#trainers">Тренеры</a>
-            <a href="#news">Новости</a>
-            <a href="#photos">Галерея</a>
-        </nav>
+      <div class="h1">Школа художественной гимнастики<br>"СК Виктория"</div>
+        <div class="nav">
+            <button class="navbtn">О школе</button>
+            <button class="navbtn">Филиалы</button>
+            <button class="navbtn">Тренеры</button>
+            <button class="navbtn">Новости</button>
+            <button class="navbtn">Галерея</button>
+        </div>
     </header>
     <div class="container">
             <!-- Общая информация -->
@@ -126,21 +126,28 @@ style{
     text-align: center;
   }
 
-  header h1 {
- font-size: 2em;
+  .h1 {
+ font-size: 4em;
   }
 
-  nav {
-    margin-top: 10px;
+  .nav {
     flex-direction: row;
   }
 
-  nav a {
+  .navbtn {
     color: #ffffffc8;
     text-decoration: none;
-    margin: 0 15px;
     font-size: 2em;
-     
+    background-color: #00000000;
+    border-radius: 5px;
+    box-shadow: 0 0px 0px 0 rgb(0, 0, 0);
+    transition: 0.5s;
+    border: none;
+    flex: 1;
+  }
+  .navbtn:hover {
+  transform: translate(0,-3px);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.74);
   }
 
   nav a:hover {
