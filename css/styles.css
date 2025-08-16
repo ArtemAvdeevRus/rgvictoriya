@@ -149,10 +149,15 @@ footer{
 
   /* Контент поверх видео */
   .content {
+    opacity: 0;
     position: relative;
     z-index: 1;
     color: rgb(255, 255, 255); /* или любой другой цвет текста */
     width: 100%;
+  }
+  .contentshow {
+    opacity: 1;
+    transition: 1s ease 5s;
   }
   @media (max-width: 768px) {
   .flex-item {
