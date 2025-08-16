@@ -153,9 +153,10 @@ footer{
     position: relative;
     z-index: 1;
     color: rgb(255, 255, 255); /* или любой другой цвет текста */
-    width: 100%;
   }
   .contentshow {
+    position: relative;
+    z-index: 1;
     opacity: 1;
     transition: 1s ease 5s;
   }
