@@ -11,13 +11,6 @@
     document.getElementById('news').style.display='none';
     document.getElementById('gallery').style.display='none';
   });
-  button_about.addEventListener('touchstart', function close () {
-    document.getElementById('abaut').style.display='flex';
-    document.getElementById('branch').style.display='none';
-    document.getElementById('coach').style.display='none';
-    document.getElementById('news').style.display='none';
-    document.getElementById('gallery').style.display='none';
-  });
   const button_branch=document.getElementById('branch_btn')
   button_branch.addEventListener('click', function close () {
     document.getElementById('abaut').style.display='none';
