@@ -1,4 +1,4 @@
-  console.log ('Скрипт работает');
+ console.log ('Скрипт работает');
   const video=document.getElementById('videoFon');
   console.log (video);
   video.addEventListener('play', () => {
