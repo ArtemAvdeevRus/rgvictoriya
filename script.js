@@ -10,6 +10,8 @@
     document.getElementById('coach').style.display='none';
     document.getElementById('news').style.display='none';
     document.getElementById('gallery').style.display='none';
+    const low=document.getElementById('containers');
+      if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
   const button_branch=document.getElementById('branch_btn')
   button_branch.addEventListener('click', function close () {
@@ -18,6 +20,8 @@
     document.getElementById('coach').style.display='none';
     document.getElementById('news').style.display='none';
     document.getElementById('gallery').style.display='none';
+   const low=document.getElementById('containers');
+      if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
    const button_coach=document.getElementById('coach_btn')
   button_coach.addEventListener('click', function close () {
@@ -26,6 +30,8 @@
     document.getElementById('coach').style.display='flex';
     document.getElementById('news').style.display='none';
     document.getElementById('gallery').style.display='none';
+   const low=document.getElementById('containers');
+      if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
    const button_news=document.getElementById('news_btn')
   button_news.addEventListener('click', function close () {
@@ -34,6 +40,8 @@
     document.getElementById('coach').style.display='none';
     document.getElementById('news').style.display='flex';
     document.getElementById('gallery').style.display='none';
+   const low=document.getElementById('containers');
+      if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
    const button_gallery=document.getElementById('gallery_btn')
   button_gallery.addEventListener('click', function close () {
@@ -42,4 +50,6 @@
     document.getElementById('coach').style.display='none';
     document.getElementById('news').style.display='none';
     document.getElementById('gallery').style.display='flex';
+   const low=document.getElementById('containers');
+      if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
