@@ -84,6 +84,7 @@ style{
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    min-height: 450px;
   }
 
   .section {

@@ -40,6 +40,7 @@
     document.getElementById('coach').style.display='none';
     document.getElementById('news').style.display='flex';
     document.getElementById('gallery').style.display='none';
+    document.getElementById('btn').style.display='none';
    const low=document.getElementById('containers');
       if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
@@ -50,6 +51,7 @@
     document.getElementById('coach').style.display='none';
     document.getElementById('news').style.display='none';
     document.getElementById('gallery').style.display='flex';
+    document.getElementById('btn').style.display='none';
    const low=document.getElementById('containers');
       if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
