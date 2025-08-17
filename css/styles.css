@@ -94,7 +94,10 @@ style{
     padding: 20px;
     border-radius: 8px;
   }
-
+ .section.news {
+  display: block;
+  overflow-y:scroll;
+  }
   h2 {
     margin-top: 0;
     color: #ffffff;
