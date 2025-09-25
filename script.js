@@ -55,3 +55,14 @@
    const low=document.getElementById('containers');
       if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
   });
+   const button_h1=document.getElementById('button_h1')
+  button_h1.addEventListener('click', function close () {
+    document.getElementById('abaut').style.display='flex';
+    document.getElementById('branch').style.display='flex';
+    document.getElementById('coach').style.display='flex';
+    document.getElementById('news').style.display='flex';
+    document.getElementById('gallery').style.display='flex';
+    document.getElementById('btn').style.display='flex';
+   const low=document.getElementById('containers');
+      if (low.firstElementChild.id=='btn') {low.appendChild(low.firstElementChild);}
+  });
